@@ -3,19 +3,19 @@
 Simple calculator program that provides add, subtract, multiply, and divide functionalities.
 """
 
-def add(a: float, b: float) -> float:
+def complex_add(a: float, b: float) -> float:
     """Returns the sum of two numbers."""
     return a + b
 
-def subtract(a: float, b: float) -> float:
+def complex_subtract(a: float, b: float) -> float:
     """Returns the difference of two numbers (a - b)."""
     return a - b
 
-def multiply(a: float, b: float) -> float:
+def complex_multiply(a: float, b: float) -> float:
     """Returns the product of two numbers."""
     return a * b
 
-def divide(a: float, b: float) -> float:
+def complex_divide(a: float, b: float) -> float:
     """
     Returns the division of two numbers (a / b).
     Raises ValueError if divisor is zero.
